@@ -8,7 +8,7 @@ const personalInfo = {
   name: "Afia F",
   title: "Software Developer",
   bio: "I'm a passionate fresher with internship experience in full stack and web development, skilled in Java, React.js, and MySQL. Excited to contribute to real-world software projects and grow in the tech industry.",
-  cvUrl: "/Resume 2.pdf", // Assumes Resume 2.pdf is directly in the public folder
+  cvUrl: "/updated_Resume.pdf", // Assumes Resume 2.pdf is directly in the public folder
 };
 
 const Hero: React.FC = () => {
