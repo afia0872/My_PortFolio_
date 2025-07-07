@@ -1,104 +1,61 @@
-export const personalInfo = {
-  name: "Alex Rodriguez",
-  title: "Full Stack Developer & AI Enthusiast",
-  email: "alex.rodriguez@email.com",
-  phone: "+1 (555) 123-4567",
-  location: "San Francisco, CA",
-  bio: "Passionate full-stack developer with 5+ years of experience building scalable web applications and AI-powered solutions. I love creating beautiful, functional user experiences that solve real-world problems.",
-  avatar: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
-  social: {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
-    portfolio: "https://portfolio.com"
-  }
-};
-
-export const experiences = [
-  {
-    id: 1,
-    title: "Senior Full Stack Developer",
-    company: "TechCorp Solutions",
-    location: "San Francisco, CA",
-    period: "2022 - Present",
-    description: "Lead development of enterprise web applications using React, Node.js, and AWS. Mentored junior developers and implemented CI/CD pipelines.",
-    technologies: ["React", "TypeScript", "Node.js", "AWS", "PostgreSQL"],
-    achievements: [
-      "Increased application performance by 40%",
-      "Led team of 5 developers",
-      "Implemented microservices architecture"
-    ]
-  },
-  {
-    id: 2,
-    title: "Full Stack Developer",
-    company: "StartupXYZ",
-    location: "Remote",
-    period: "2020 - 2022",
-    description: "Developed and maintained multiple client projects using modern web technologies. Collaborated with design teams to create pixel-perfect user interfaces.",
-    technologies: ["Vue.js", "Python", "Django", "MySQL", "Docker"],
-    achievements: [
-      "Built 10+ client applications",
-      "Reduced deployment time by 60%",
-      "Improved code coverage to 95%"
-    ]
-  },
-  {
-    id: 3,
-    title: "Frontend Developer",
-    company: "Digital Agency Pro",
-    location: "New York, NY",
-    period: "2019 - 2020",
-    description: "Created responsive web applications and landing pages. Worked closely with UX/UI designers to implement modern design systems.",
-    technologies: ["React", "JavaScript", "SASS", "Webpack", "Git"],
-    achievements: [
-      "Delivered 20+ responsive websites",
-      "Implemented design system",
-      "Optimized loading times by 50%"
-    ]
-  }
-];
-
-export const skills = [
-  { name: "React", level: 95, category: "Frontend" },
-  { name: "TypeScript", level: 90, category: "Frontend" },
-  { name: "Node.js", level: 88, category: "Backend" },
-  { name: "Python", level: 85, category: "Backend" },
-  { name: "AWS", level: 80, category: "Cloud" },
-  { name: "PostgreSQL", level: 82, category: "Database" },
-  { name: "Docker", level: 78, category: "DevOps" },
-  { name: "GraphQL", level: 75, category: "API" }
-];
+import FurnitureProjectImage from '../assets/FurnitureWeb.png'; // Path to your furniture image
+import FlowerShopImage from '../assets/Flower.png';           // Path to your flower shop image
+import HotelProjectImage from '../assets/HotelWeb.png';         // Path to your hotel project image
+import AiAssistantImage from '../assets/AI Assistant.png';   // Path to your AI Assistant image
+import ProtectMeApp from  '../assets/ProtectMeApp.jpg';
 
 export const projects = [
-  {
-    id: 1,
-    title: "E-Commerce Platform",
-    description: "Full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.",
-    image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
-    technologies: ["React", "Node.js", "Stripe", "MongoDB"],
-    github: "https://github.com",
-    demo: "https://demo.com",
-    featured: true
-  },
-  {
-    id: 2,
-    title: "AI Chat Application",
-    description: "Real-time chat application with AI-powered message suggestions and sentiment analysis.",
-    image: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=600",
-    technologies: ["React", "WebSocket", "OpenAI", "Express"],
-    github: "https://github.com",
-    demo: "https://demo.com",
-    featured: true
-  },
-  {
-    id: 3,
-    title: "Project Management Tool",
-    description: "Collaborative project management tool with kanban boards, time tracking, and team collaboration features.",
-    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600",
-    technologies: ["Vue.js", "Firebase", "Vuetify"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    {
+    id: 1, // Assign a unique ID
+    title: 'AI Assistant',
+    description: 'A smart AI assistant designed to help with various tasks, providing intelligent responses and automating routine operations.', // <<< IMPORTANT: Add a relevant description for your AI Assistant
+    image: AiAssistantImage, // Assign the imported image variable
+    technologies: ['Python', 'TensorFlow', 'NLP', 'React'], // <<< IMPORTANT: Adjust technologies based on your actual AI Assistant project
+    github: 'https://github.com/afia0872/ProtectMeA', // <<< IMPORTANT: REPLACE WITH YOUR ACTUAL GITHUB LINK
+    demo: 'https://afiavirtualassistant.netlify.app', // <<< IMPORTANT: REPLACE WITH YOUR ACTUAL LIVE DEMO LINK (if applicable)
     featured: false
-  }
+  },
+   {
+  id: 2,
+  title: 'ProtectMe - Safety App',
+  description: 'An Android safety application built in Java that helps users quickly share their location, contact emergency services, and access a Google Maps-enabled interface.',
+  image: ProtectMeApp, // Replace this with your actual image import (e.g., import SafetyAppImage from '../assets/safetyapp.png')
+  technologies: ['Java', 'Android Studio', 'Google Maps SDK', 'Firebase'],
+  github: 'https://github.com/afia0872/protectme', // Replace with your actual GitHub repo link
+  demo: 'https://your-furniture-demo.netlify.app/', // Replace if you host it elsewhere
+  featured: true
+}
+,
+  {
+    id: 3, // Unique ID for the project
+    title: 'Modern Furniture E-commerce',
+    description: 'A responsive and intuitive e-commerce platform for Browse and purchasing modern furniture, featuring detailed product views and category filtering.',
+    image: FurnitureProjectImage, // Assign the imported image variable
+    technologies: ['React', 'Vite', 'Tailwind CSS', 'React Router'], // <<< IMPORTANT: Adjust these technologies
+    github: 'https://github.com/afia0872/furniture', // <<< IMPORTANT: REPLACE WITH YOUR ACTUAL GITHUB LINK
+    demo: 'https://your-furniture-demo.netlify.app/',   // <<< IMPORTANT: REPLACE WITH YOUR ACTUAL LIVE DEMO LINK
+    featured: true // Set to true to highlight this project
+  },
+  {
+    id: 4,
+    title: 'Beautiful Flower Shop',
+    description: 'An elegant online store for Browse and ordering a variety of fresh flowers and arrangements, designed for a delightful user experience.',
+    image: FlowerShopImage, // Assign the imported image variable
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'], // <<< IMPORTANT: Adjust these technologies
+    github: 'https://github.com/afia0872/flower-shop', // <<< IMPORTANT: REPLACE WITH YOUR ACTUAL GITHUB LINK
+    demo: 'https://your-flower-shop-demo.netlify.app/', // <<< IMPORTANT: REPLACE WITH YOUR ACTUAL LIVE DEMO LINK
+    featured: false
+  },
+  {
+    id: 5,
+    title: 'Hotel Booking Application',
+    description: 'A web application enabling users to search, view details, and book hotel rooms securely, with admin functionalities for property management.',
+    image: HotelProjectImage, // Assign the imported image variable
+    technologies: ['React', 'Vite', 'Tailwind CSS', 'React Router', 'Clerk'], // <<< IMPORTANT: Adjust these technologies
+    github: 'https://github.com/afia0872/Hotel-Booking', // <<< IMPORTANT: REPLACE WITH YOUR ACTUAL GITHUB LINK
+    demo: 'https://your-hotel-booking-demo.netlify.app/', // <<< IMPORTANT: REPLACE WITH YOUR ACTUAL LIVE DEMO LINK
+    featured: false
+  },
+  
+  // Add more project objects here following the same structure
 ];
