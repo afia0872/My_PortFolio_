@@ -83,9 +83,7 @@ const About: React.FC = () => {
               <div className="bg-white px-4 py-2 rounded-full shadow-md border border-slate-200">
                 <span className="text-slate-700 font-medium">💼 Available for hire</span>
               </div>
-              <div className="bg-white px-4 py-2 rounded-full shadow-md border border-slate-200">
-                <span className="text-slate-700 font-medium">🌍 Remote friendly</span>
-              </div>
+              
             </div>
           </motion.div>
         </div>

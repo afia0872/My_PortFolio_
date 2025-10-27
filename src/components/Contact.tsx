@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send, Check } from 'lucide-react';
 
 const personalInfo = {
-  email: 'afiafareen0827@gmail.com',
-  phone: '6361757243',
+  email: 'Sample@gmail.com',
+  phone: '0123456789',
   location: 'Bengaluru, Karnataka, 560001',
   social: {
     linkedin: 'https://linkedin.com/in/Afia-fareen',

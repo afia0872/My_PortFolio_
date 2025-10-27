@@ -5,8 +5,8 @@ import { ChevronDown, Download } from 'lucide-react';
 const personalInfo = {
   // CORRECTED PATHS: Remove '/public'
   avatar: "/profile.jpg", // Assumes profile.jpg is directly in the public folder
-  name: "Afia F",
-  title: "Software Developer",
+  name: "Afia",
+  title: "Developer",
   bio: "I'm a passionate fresher with internship experience in full stack and web development, skilled in Java, React.js, and MySQL. Excited to contribute to real-world software projects and grow in the tech industry.",
   cvUrl: "/updated_Resume.pdf", // Assumes Resume 2.pdf is directly in the public folder
 };

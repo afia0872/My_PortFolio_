@@ -6,8 +6,8 @@ const Footer: React.FC = () => {
 
   const personalInfo = {
     name: 'Afia Fareen',
-    email: 'afiafareen0827@gmail.com',
-    phone: '+91 6361757243',
+    email: 'sample@gmail.com',
+    phone: '+91 0123456789',
     location: 'Bengaluru, Karnataka, 560001',
     social: {
       github: 'https://github.com/afia0872',
