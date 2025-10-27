@@ -13,12 +13,17 @@ Built with **modern web technologies**, it provides a **clean, responsive, and e
 ## ✨ **Features**
 
 🔹**🖼️Hero Section**– Eye-catching introduction with a professional photo, short bio, and interactive call-to-action buttons.
+
 🔹**💡Dynamic Project Showcase** – Highlighting key projects with tech stacks, GitHub links, and live demos.
 
 🔹**🧩Skills Section** – Quick visual overview of my technical expertise.
+
 🔹**👩‍💻About Me** – A deeper look into my background, learning journey, and aspirations.
+
 🔹**📬Contact Form** – Simple, responsive way for visitors to reach out.
+
 🔹**📱Responsive Design** – Optimized across all devices: desktop 💻, tablet 📱, and mobile 📲.
+
 🔹**🎞️Smooth Animations** – Powered by **Framer Motion** for elegant transitions and micro-interactions.
 
 ---
